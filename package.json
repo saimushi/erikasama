@@ -1,0 +1,33 @@
+{
+  "name": "eris-discord-bot-example",
+  "version": "1.0.0",
+  "description": "This is an example of how to make a Discord bot out of Eris, a quicker and lighter Discord.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "env TZ='Asia/Tokyo' node server.js"
+  },
+  "dependencies": {
+    "eris": "^0.9.0",
+    "date-utils": "^1.2.21",
+    "express": "^4.16.3",
+    "jsdom": "14.0.0",
+    "firebase-admin": "^6.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/eris-discord-bot-example"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "eris",
+    "discord-bot",
+    "discord",
+    "bot"
+  ]
+}
